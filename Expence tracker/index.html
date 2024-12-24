@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expence Tracker</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-div">
+            <form id="form">
+                <label for="dateInput">Date</label><br>
+                <input type="date" id="dateInput" name="dateInput" >
+                <p id="date-para"></p>
+                <div>
+                    <label for="summery">Summery</label><br>
+                    <input type="text" id="summery" >
+                    <p id="summery-para"></p>
+                </div>
+
+                <div>
+                    <label for="amount">Amount</label><br>
+                    <input type="number" id="amount" >
+                    <p id="amount-para"></p>
+                </div>
+
+                <div>
+                    <label for="type">Type</label><br>
+                    <input type="radio" id="income" name="amount" value="income"><span class="span">income</span>
+                    <input type="radio" id="expence" name="amount" value="expence"><span class="span">expence</span>
+                </div>
+
+                <div>
+                    <label for="Category">Category</label><br>
+                    <select id="Category">
+                        <option value=""></option>
+                        <option value="Loan">Loan</option>
+                        <option value="Salary">Salary</option>
+                        <option value="Shopping">Shopping</option>
+                        <option value="Eduction">Eduction</option>
+                        <option value="House">House Rent</option>
+                        <option value="misselenious">misselenious</option>
+                    </select>
+                </div>
+
+                <button id="submit" type="submit" >Submit</button>
+
+            </form>
+            <div class="filter-div">
+                
+                    <div>
+
+                        <label for="date">Filter</label><br>
+                        <input type="radio" id="All" onclick="expence.allchecked()" value="all" name="filter">All
+                        <input type="radio" id="Income" value="income" name="filter" onclick="expence.incomechecked()">Income
+                        <input type="radio" id="Expence" value="expence" name="filter"onclick="expence.expenceChecked()">Expence
+                    </div>
+                    <form id="secondd-form">
+                    <div class="categroye-div">
+                        <label for="filter-category">Category</label><br>
+                        <select name="" id="filter-category">
+                            <option value="All" >All</option>
+                            <option value="Loan" >Loan</option>
+                            <option value="Salary" >Salary</option>
+                            <option value="Shopping">Shopping</option>
+                            <option value="Eduction">Eduction</option>
+                            <option value="House" >House Rent</option>
+                            <option value="Misselenious">Misselenious</option>
+                        </select>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+        <div class="balance-div">
+            <div class="balance-amount-div">
+            <p class="amount-para">Available Amount</p>
+            <p id="balance-amount">25000</p>
+        </div>
+            <div id="chart-div">
+               
+              </div>
+              
+        </div>
+    </div>
+
+    <!-- Table-div -->
+    <div class="table-div">
+
+        <table id="table">
+            <tr id="first-tr">
+                <td>Date</td>
+                <td>Summery</td>
+                <td>Income</td>
+                <td>Expence</td>
+                <td>Balance</td>
+            </tr>
+        </table>
+    </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+    <script src="assets/script.js"></script>
+</body>
+
+</html>

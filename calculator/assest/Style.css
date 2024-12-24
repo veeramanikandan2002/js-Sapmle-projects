@@ -1,0 +1,47 @@
+*{
+ padding:0px;
+ margin:0px;
+}
+.container{
+    display:flex;
+    justify-content:center;
+margin-top:100px;
+}
+.all-element-div{
+    background-color: gainsboro;
+    padding:30px;
+    border-radius:10px;
+}
+.js-display{
+    height: 25px;
+    width:90%;
+    padding:10px;
+    background-color:white;
+    border-radius:4px;
+    margin-right:10px;
+    margin-bottom:10px;
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+button{
+    margin:7px;
+    padding:15px 25px 15px 25px;
+    border:none;
+    border-radius:4px;
+    background-color:white
+
+}
+.clear{
+    background-color:red;
+    color:white
+}
+.div-symp,.multi-symp,.sub-symp{
+    color:white;
+    background-color:blue;
+}
+/* .equal-symp{
+   
+    background-color:green;
+    padding:50px 10px 50px 10px
+
+} */

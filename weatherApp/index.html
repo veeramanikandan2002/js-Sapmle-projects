@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-div">
+            <div class="header">
+            <input type="text" placeholder="enter the place" id="place-input">
+
+            <button id="search"><i class="fa-solid fa-magnifying-glass"  ></i></button>
+        </div>
+
+            <img src="asset/cloudy.png" alt="sun-img" class="cloud-img">
+            
+            <h2 id="cityNOtFound"></h2>
+
+            <div id="all-data-div">
+            <div class="celcious-div">
+            <p id="date">17:58-Saturday,14 December 2024</p>
+
+            <div class="date-div">
+            
+            <h2 id="celcious">27°C</h2>
+
+            <p id="place-para">chennai</p>
+        </div>
+    </div>
+            <div class="end-div">
+
+                <div class="Humidity-div">
+                    <i class="fa-solid fa-water"></i>
+                    
+                    <div class="Humidity">
+                        <p id="degree">81%</p>
+                        <h4 id="hum-p">Humidity</h4>
+                    </div>
+                </div>
+
+                <div class="windSpeed-div">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="windSpeed-values">
+                        <p id="kmhr">4.25Km/h</p>
+                        <h4 id="hum-p">windSpeed</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
+    <script src="asset/script.js"></script>
+</body>
+
+</html>

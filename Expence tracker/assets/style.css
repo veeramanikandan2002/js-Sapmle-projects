@@ -1,0 +1,102 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family:poppines;
+}
+@font-face {
+    font-family:poppines;
+    src: url(./Poppins-Regular.ttf);
+}
+.container{
+    display:flex;
+    width:100%
+}
+.form-div{
+    
+margin-left:200px;
+margin-top:20px;
+padding:10px;
+
+}
+
+
+.form-div label{
+ color:black;
+ margin-bottom: 5px;
+ 
+}
+#dateInput,#summery,#amount,#Category{
+    height:30px;
+    width:250px;
+    margin-top:3px;
+    cursor: pointer;
+}
+.span{
+    color:gray;
+    margin-left:3px;
+    margin-top:-5px;
+}
+.form-div div{
+    margin-bottom:10px;
+}
+#submit{
+    margin-bottom:10px;
+    padding:10px 100px 10px 100px;
+    background-color:blue;
+    color:white;
+    border-radius:10px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#All,#Income,#Expence{
+    margin:10px;
+}
+
+.balance-div{
+    margin:10px 0px 20px 20px;
+}
+.balance-amount-div{
+margin-left:70px;
+margin-bottom:20px;
+border-radius:5px;
+width:fit-content;
+padding:15px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.amount-para{
+    font-size:30px;
+    font-weight:700;
+}
+#balance-amount{
+    font-size:16px;
+    font-weight:600;
+    margin:10px 0px 0px 70px;
+}
+.table-div{
+margin-top:20px;
+margin-left:30px;
+}
+table {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+table tr td{
+     border:1px solid black;
+    padding:5px 90px 5px 90px;
+}
+.filter-div{
+    display:flex;
+    margin-top:10px;
+}
+.categroye-div{
+    margin-top:10px;
+    margin-left:60px;
+    
+}
+#date-para,#amount-para,#summery-para{
+    color:red
+}
+#chart-div{
+    margin-top:10px;
+    
+} 

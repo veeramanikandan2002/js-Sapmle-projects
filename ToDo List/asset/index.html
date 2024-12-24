@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            color:red;
+        }
+        .blue{
+            color:blue
+        }
+    </style>
+</head>
+<body>
+    <p id="cl" class="red">veera</p>
+    <script>
+        let arr=["red","blue"]
+        
+        let index=0
+        console.log(arr[index])
+        let aer=document.getElementById('id')
+        setInterval(()=>{
+        aer.classList.add("red")
+        index++;
+        if(index==3){
+            index=0
+        }
+        },2000)
+    </script>
+</body>
+</html>

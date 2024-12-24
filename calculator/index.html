@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="assest/Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="all-element-div">
+    <p class="js-display"></p>
+    
+   
+    <div class="first-line-div">
+      <button class="clear" onclick="
+        calculation = '';
+       displayCalculation();
+      ">C</button>
+
+      <button class="div-symp" onclick="
+      updatecalculation('/')
+      ">/</button>
+
+     <button class="multi-symp" onclick="
+     updatecalculation('*')
+      ">*</button>
+
+      <button class="sub-symp" onclick="
+      updatecalculation('-')
+     ">-</button>
+    </div>
+
+    <div class="second-line">
+        <button onclick="
+        updatecalculation(7)
+        ">7</button>
+  
+        <button onclick="
+          updatecalculation(8)
+        ">8</button>
+  
+        <button onclick="
+         
+         updatecalculation(9)
+        ">9</button>
+         
+         <button class="add-symp" onclick="
+        updatecalculation('+')
+        ">+</button>
+      </div>
+
+      <div class="third-line">
+        <button onclick="
+          updatecalculation(4)
+        ">4</button>
+  
+        <button onclick="
+           updatecalculation(5)
+        ">5</button>
+  
+        <button onclick="
+       updatecalculation(6)
+        ">6</button>
+  
+      <button class="equal-symp" onclick="
+          
+       calculation = eval(calculation);
+       console.log(calculation);
+
+       updatecalculation(value)
+       ">=</button>
+
+        
+      </div>
+      <div class="fourth-line">
+        <button onclick="
+      updatecalculation(1)
+        ">1</button>
+  
+        <button onclick="
+         updatecalculation(2)
+        ">2</button>
+  
+        <button onclick="
+       updatecalculation(3)
+        ">3</button>
+  
+        
+      </div>
+
+      <div class="fifth-line">
+        <button onclick="
+         updatecalculation(0);
+        ">0</button>
+  
+        <button onclick="
+     updatecalculation('.');
+        ">.</button> 
+      </div>
+  </div>
+      </div>
+
+
+    <script src="assest/script.js"></script>
+</body>
+</html>

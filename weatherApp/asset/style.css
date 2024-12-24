@@ -1,0 +1,120 @@
+*{
+    padding:0px;
+    margin:0px;
+    color:white;
+   font-family: poppinnes;
+}
+@font-face {
+    font-family:poppines;
+    src: url(./Poppins-Regular.ttf);
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    padding-bottom:40px;
+    background-color: #222222;
+}
+.main-div{
+
+background-color: black;
+margin-top:50px;
+width:30%;
+height:550px;
+border-radius: 20px;
+}
+.header{
+    display:flex;;
+    justify-content: center;
+    margin-top:30px;
+   
+   
+}
+#place-input{
+   height:50px;
+   width:65%;
+   background-color: aliceblue;
+   color:black;
+   border:none;
+   border-radius:30px;
+   padding-left:10px;
+   
+}
+#search{
+  height:50px;
+  width:50px;
+  border-radius:50px;
+  background-color:#EBFFFC;
+  margin-left:10px;
+  
+}
+.fa-solid{
+    color:grey
+}
+.cloud-img{
+    height:150px;
+    width:150px;
+    margin-top:10px;
+    margin-left:110px;
+}
+#cityNOtFound{
+margin-left:110px;
+margin-top:30px;
+
+}
+.celcious-div{
+margin-left:20px;
+
+
+}
+#celcious{
+    margin-left:30px;
+    margin-bottom:10px;
+    font-size:40px;
+    font-weight:500;
+}
+#place-para{
+    font-size:50px;
+    font-weight:500;
+}
+.date-div{
+    margin:30px 0px 10px 100px;
+}
+#date{
+    margin:20px 0px 10px 40px;
+    font-size:20px;
+    font-weight:500;
+}
+
+.end-div{
+    display:flex;
+    margin-top:35px;
+    gap:70px;
+    padding-bottom:40px;
+    margin-left:20px;
+}
+.Humidity-div{
+    display:flex;
+}
+.fa-water{
+   font-size:40px;
+   color:white;  
+}
+#degree,#kmhr{
+    margin-bottom: 5px;
+    font-size:25px;
+    font-weight:500;
+
+}
+.Humidity,.windSpeed-values{
+margin-left:20px;
+}
+
+.windSpeed-div{
+    display:flex;
+}
+.fa-wind{
+    color:white;
+    font-size:40px;
+    
+}

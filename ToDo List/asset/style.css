@@ -1,0 +1,122 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family:poppines   
+}
+@font-face {
+    font-family:poppines;
+    src: url(./Poppins-Regular.ttf);
+}
+.heading{
+    color:blue;
+    margin-top:30px;
+    text-align:center;
+    display:block;
+}
+.container{
+    display:flex;
+    justify-content:center;
+   
+}
+
+#input-box{
+    margin-top:10px;
+    height:30px;
+    width:400px; 
+}
+
+.button-div{
+    margin-top:20px; 
+}
+
+
+.btn-div{
+    display:flex;
+    justify-content: space-around;
+}
+.Add-btn{
+    height:33px;
+    padding-top:3px 0px 3px 0px;
+    width:35px;
+    color:white;
+    background-color: #13EC28;
+    margin-left:-4px;
+    border:none;
+}
+.remove-btn{
+    background-color:red;
+    color:white;
+    border-radius:4px;
+    border:none;
+    height:20px;
+    width:30px;
+   
+    /* margin-left:0px; */
+}
+.li-list{
+    list-style-type: none;
+    display:flex;
+   justify-content: space-between;
+    border:1px solid grey;
+    padding:5px;
+    margin-bottom:5px;
+    
+}
+.edit-btn{
+
+border:none;
+height:20px;
+width:30px;
+border-radius:3px;
+background-color: #0085FF;
+margin-right:3px;
+
+}
+
+.list-div{
+    display:flex;
+    justify-content: end;
+}
+
+.edit-div{
+    display:flex;
+
+}
+ input[type=checkbox] {
+    accent-color:white;
+  }
+
+.fa-pen{
+    color:white;
+}
+.all{  
+    padding:5px 35px 5px 35px;
+    margin-left:10px;
+    background-color:white;
+    border:1px solid gray;
+    border-radius:4px;
+margin-bottom:30px;
+
+   
+}
+.all:first-child{
+    padding:5px 60px 5px 60px;
+}
+
+
+.indicator{
+    color:black;
+    background-color:gray;
+    padding:5px 30px 5px 30px;
+    margin-left:10px;
+    border:1px solid;
+    border-radius:4px;
+margin-bottom:30px;
+color:white;
+border:none;
+}
+
+.check-box{
+    margin-left:5px;
+    margin-right:10px;
+}

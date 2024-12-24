@@ -1,0 +1,101 @@
+*{
+    padding:0px;
+    margin:0px;
+   font-family:poppines 
+}
+@font-face {
+    font-family:poppines;
+    src: url(./Poppins-Regular.ttf);
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    height:60px;
+}
+.log-follow{
+    display:flex;
+    gap:10px;
+    margin-top:10px;
+}
+.log-png{
+    height:40px;
+    width:40px;
+}
+.soly{
+    color:white;
+    display: inline-block;
+}
+.follow-but{
+    background-color: #47CF73;
+}
+.fom-validater{
+color:white;
+font-size:20px;
+font-weight:400;
+}
+.header-btns{
+    margin-top:15px;
+    gap:10px;    
+}
+
+.like,.viewSorce,.Login,.SignUp{
+ background-color:#444857;  
+ padding:7px;
+ border:none;
+ color:white;
+ border-radius:5px;
+}
+.Login{
+    background-color:#47CF73;
+    color:black
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+
+}
+.main-div{
+    margin-top:50px;
+    padding:30px;
+    border-radius:10px;
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    
+}
+
+.heading{
+    color:black;
+    margin-bottom:30px;
+    margin-left:30px;
+    
+}
+.Lables{
+    color:grey;
+}
+#form input{
+    height:25px;
+    width:96%;
+    margin:5px 0px 2px 0px;
+    padding-left:5px;
+}
+#name-p,#email-p,#password-p,#conformpass-p{
+    margin-bottom:10px;
+    color:red;
+}
+#submited{
+    color:green;
+}
+
+#submit{
+  color:white;
+  padding:10px 100px 10px 110px;
+ background-color:#3498DB;
+ border:none;
+ border-radius:6px;
+}
+#submited{
+    margin:10px 0px 0px 40px;
+}
